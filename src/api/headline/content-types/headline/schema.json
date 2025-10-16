@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "headlines",
+  "info": {
+    "singularName": "headline",
+    "pluralName": "headlines",
+    "displayName": "Headline"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "article.block",
+        "article.block-title"
+      ]
+    },
+    "badge": {
+      "type": "enumeration",
+      "enum": [
+        "Update",
+        "Event",
+        "Announcement",
+        "Interview",
+        "Report"
+      ]
+    }
+  }
+}
