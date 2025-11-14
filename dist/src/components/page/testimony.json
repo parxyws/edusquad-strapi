@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_page_testimonies",
+    "info": {
+        "displayName": "Testimony"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "position": {
+            "type": "string"
+        },
+        "testimony": {
+            "type": "blocks"
+        },
+        "imageProfile": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        }
+    },
+    "config": {}
+}

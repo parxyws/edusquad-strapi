@@ -531,7 +531,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     scheduleYear: Schema.Attribute.String;
     Testimonies: Schema.Attribute.DynamicZone<['page.testimony']>;
-    TrainingScedules: Schema.Attribute.DynamicZone<['page.training-schedule']>;
+    TrainingSchedules: Schema.Attribute.DynamicZone<['page.training-schedule']>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

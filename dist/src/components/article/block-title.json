@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_article_block_titles",
+    "info": {
+        "displayName": "BlockTitle",
+        "icon": "file"
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "textContent": {
+            "type": "blocks"
+        }
+    },
+    "config": {}
+}

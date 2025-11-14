@@ -1,0 +1,50 @@
+{
+    "kind": "collectionType",
+    "collectionName": "agendas",
+    "info": {
+        "singularName": "agenda",
+        "pluralName": "agendas",
+        "displayName": "Agenda"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "title"
+        },
+        "publishedDate": {
+            "type": "date"
+        },
+        "coverImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "sections": {
+            "type": "dynamiczone",
+            "components": [
+                "article.block",
+                "article.block-title"
+            ]
+        },
+        "badge": {
+            "type": "enumeration",
+            "enum": [
+                "Workshop",
+                "Webinar",
+                "Forum Group Discussion"
+            ]
+        }
+    }
+}

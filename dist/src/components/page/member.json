@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_page_members",
+    "info": {
+        "displayName": "Member",
+        "icon": "user"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "email": {
+            "type": "email"
+        },
+        "position": {
+            "type": "string"
+        },
+        "university": {
+            "type": "string"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        }
+    },
+    "config": {}
+}

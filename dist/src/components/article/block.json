@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_article_blocks",
+    "info": {
+        "displayName": "Block",
+        "icon": "file"
+    },
+    "options": {},
+    "attributes": {
+        "textContent": {
+            "type": "blocks"
+        }
+    },
+    "config": {}
+}

@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_page_training_schedules",
+    "info": {
+        "displayName": "TrainingSchedule"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "startDate": {
+            "type": "date"
+        },
+        "finishDate": {
+            "type": "date"
+        }
+    },
+    "config": {}
+}
