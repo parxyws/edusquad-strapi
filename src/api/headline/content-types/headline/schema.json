@@ -32,13 +32,6 @@
         "audios"
       ]
     },
-    "sections": {
-      "type": "dynamiczone",
-      "components": [
-        "article.block",
-        "article.block-title"
-      ]
-    },
     "badge": {
       "type": "enumeration",
       "enum": [
@@ -48,6 +41,9 @@
         "Interview",
         "Report"
       ]
+    },
+    "section": {
+      "type": "blocks"
     }
   }
 }

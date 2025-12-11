@@ -6,9 +6,7 @@ export interface ArticleBlock extends Struct.ComponentSchema {
     displayName: 'Block';
     icon: 'file';
   };
-  attributes: {
-    textContent: Schema.Attribute.Blocks;
-  };
+  attributes: {};
 }
 
 export interface ArticleBlockTitle extends Struct.ComponentSchema {
@@ -18,7 +16,6 @@ export interface ArticleBlockTitle extends Struct.ComponentSchema {
     icon: 'file';
   };
   attributes: {
-    heading: Schema.Attribute.String;
     textContent: Schema.Attribute.Blocks;
   };
 }

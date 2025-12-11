@@ -31,13 +31,6 @@
                 "audios"
             ]
         },
-        "sections": {
-            "type": "dynamiczone",
-            "components": [
-                "article.block",
-                "article.block-title"
-            ]
-        },
         "badge": {
             "type": "enumeration",
             "enum": [
@@ -45,6 +38,9 @@
                 "Webinar",
                 "Forum Group Discussion"
             ]
+        },
+        "section": {
+            "type": "blocks"
         }
     }
 }

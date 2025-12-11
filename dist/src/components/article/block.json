@@ -5,10 +5,6 @@
         "icon": "file"
     },
     "options": {},
-    "attributes": {
-        "textContent": {
-            "type": "blocks"
-        }
-    },
+    "attributes": {},
     "config": {}
 }

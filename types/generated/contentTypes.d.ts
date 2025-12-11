@@ -458,9 +458,7 @@ export interface ApiAgendaAgenda extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     publishedDate: Schema.Attribute.Date;
-    sections: Schema.Attribute.DynamicZone<
-      ['article.block', 'article.block-title']
-    >;
+    section: Schema.Attribute.Blocks;
     slug: Schema.Attribute.UID<'title'>;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
@@ -497,9 +495,7 @@ export interface ApiHeadlineHeadline extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     publishedDate: Schema.Attribute.Date;
-    sections: Schema.Attribute.DynamicZone<
-      ['article.block', 'article.block-title']
-    >;
+    section: Schema.Attribute.Blocks;
     slug: Schema.Attribute.UID<'title'> & Schema.Attribute.Required;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
